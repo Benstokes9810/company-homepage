@@ -1,0 +1,50 @@
+
+.error_container{
+    position: fixed;
+    top: 4rem;
+    right: 0.9rem;
+    min-width: 250px;
+    max-width: 450px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 10;
+    background: #ffffff;
+    color: #007dde;
+    border: 1px solid #007dde26;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px #62626252;
+ }
+.alert_close{
+    font-size: 14px;
+    color: #007dde;
+    position: absolute;
+    transition: color 160ms ease-in;
+    cursor: pointer;
+    top: 0.7rem;
+    right: 0.7rem;
+}
+.fa-circle-info{
+    font-size: 25px;
+    color: #007dde;
+    margin-top: 0.2rem;
+    margin-inline: 0.5rem;
+}
+.error_text{
+    padding-right: 1rem;
+}
+.alert_close:hover{
+    color: #1e1e1e;
+
+}
+.error_box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
